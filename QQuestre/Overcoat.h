@@ -31,5 +31,7 @@ public:
     bool operator>(const Overcoat& other) const {
         return type == other.type && price > other.price;
     }
+
+    const string& get_type() { return type; }
 };
 
